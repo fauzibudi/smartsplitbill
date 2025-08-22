@@ -2,6 +2,8 @@
 
 A Smart Split Bill application that automatically extracts bill details and helps split expenses among friends using Streamlit and advanced computer vision.
 
+Demo video: https://drive.google.com/file/d/1q0IBa8ylLH2PAt2dis81tX6g_aVMIp3F/view?usp=sharing
+
 ## Features ✨
 
 - **AI Receipt Processing**: Uses Donut AI model to extract text from receipt images
@@ -142,3 +144,4 @@ smart-split-bill/
 ## License 📄
 
 This project is open source and available under the [MIT License](LICENSE).
+
