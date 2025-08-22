@@ -212,7 +212,7 @@ def robust_parse_receipt(extracted_data):
         return {"error": f"Failed to parse receipt: {str(e)}"}
 
 st.title("Smart Split Bill Prototype")
-st.markdown("Upload a receipt image and split the bill among friends!")
+st.markdown("By: Fauzi budi w")
 
 if not st.session_state.model_loaded:
     col1, col2, col3 = st.columns([1, 2, 1])
@@ -386,4 +386,5 @@ if st.session_state.model_loaded:
             st.error(f"❌ Error processing image: {str(e)}")
             st.info("Please ensure the image is clear and contains a valid receipt")
 else:
+
     st.info("Click 'Load AI Models' above to get started!")
